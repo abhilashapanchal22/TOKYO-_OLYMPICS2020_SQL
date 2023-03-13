@@ -23,7 +23,7 @@ This project was performed in MySQL Workbench with using the data. i have cleane
    group by 1
    order by COUNT(Discipline) DESC;
    
-   <img src = "https://github.com/abhilashapanchal22/TOKYO-_OLYMPICS2020_SQL" alt = "MLBC">
+   <img src = "" alt = "MLBC">
    
 # 3. Total Gold medals, Total Silver medals, Total Bronze medals won in olympics
    
@@ -117,5 +117,5 @@ This project was performed in MySQL Workbench with using the data. i have cleane
    GROUP BY NOC
    ORDER BY COUNT(Name) DESC;
 
-   <img src = "" alt = "MLBC">
+   <img src = "https://github.com/abhilashapanchal22/TOKYO-_OLYMPICS2020_SQL/blob/main/Screenshot%20(56).png" alt = "MLBC">
       
