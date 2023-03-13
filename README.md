@@ -62,8 +62,16 @@ This project was performed in MySQL Workbench with using the data. i have cleane
    SELECT ROUND(SUM(Female)/Sum(Total)*100) AS Femalepercentage, round(SUM(Male)/SUM(Total)*100) AS Malepercentage
    FROM entriesgender1;
    
-   <img src = "" alt = "MLBC">
+   <img src = "https://github.com/abhilashapanchal22/TOKYO-_OLYMPICS2020_SQL/blob/main/Screenshot%20(44).png" alt = "MLBC">
+   
+# 8. Top 10 countries who win highest medals(Gold, Silver, Bronze) 
 
+   SELECT NOC, Gold, Silver, Bronze, Total, Rankbytotal 
+   FROM medals1
+   ORDER BY Rankbytotal ASC
+   LIMIT 10;
+
+   <img src = "https://github.com/abhilashapanchal22/TOKYO-_OLYMPICS2020_SQL/blob/main/Screenshot%20(44).png" alt = "MLBC">
    
 
       
