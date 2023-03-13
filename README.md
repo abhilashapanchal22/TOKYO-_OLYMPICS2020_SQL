@@ -16,7 +16,7 @@ This project was performed in MySQL Workbench with using the data. i have cleane
 
   <img src = "https://github.com/abhilashapanchal22/TOKYO-_OLYMPICS2020_SQL/blob/main/Screenshot%20(31).png" alt = "MLBC">
 
-# 2. Total decipline each country participated
+# 2. Total discipline each country participated
 
    SELECT NOC, COUNT(Discipline)AS Total_Discipline
    from athletes1
