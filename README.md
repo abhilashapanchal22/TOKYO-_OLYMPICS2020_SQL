@@ -25,7 +25,7 @@ This project was performed in MySQL Workbench with using the data. i have cleane
    
    <img src = "https://github.com/abhilashapanchal22/TOKYO-_OLYMPICS2020_SQL" alt = "MLBC">
    
-# 3. Total Gold Medals, Total Silver Medals, Total Bronze medals won in olympics
+# 3. Total Gold medals, Total Silver medals, Total Bronze medals won in olympics
    
    SELECT SUM(Gold) AS TOTAL_GOLD, SUM(Silver) AS TOTAL_SILVER, SUM(Bronze) AS TOTAL_BRONZE
    FROM medals1;
@@ -40,3 +40,14 @@ This project was performed in MySQL Workbench with using the data. i have cleane
    LIMIT 10;
    
    <img src = "https://github.com/abhilashapanchal22/TOKYO-_OLYMPICS2020_SQL/blob/main/Screenshot%20(37).png" alt = "MLBC">
+
+# 5. Countries participation in different discipline
+
+   SELECT DISTINCT(NOC) AS country, Discipline
+   FROM athletes1
+   GROUP BY country, Discipline
+   ORDER BY country ASC;
+   
+   <img src = "" alt = "MLBC">
+
+      
