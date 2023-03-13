@@ -5,3 +5,5 @@ This project was performed in MySQL Workbench with using the data. i have cleane
 
 # Analysis of The Project
 
+<img src = "https://github.com/abhilashapanchal22/TOKYO-_OLYMPICS2020_SQL/blob/main/Screenshot%20(31).png" alt = "MLBC">
+
