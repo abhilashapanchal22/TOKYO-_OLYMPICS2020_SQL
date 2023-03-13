@@ -55,7 +55,15 @@ This project was performed in MySQL Workbench with using the data. i have cleane
    SELECT SUM(Female) AS Total_Female, SUM(Male) AS Total_Male
    FROM entriesgender1;
    
+   <img src = "https://github.com/abhilashapanchal22/TOKYO-_OLYMPICS2020_SQL/blob/main/Screenshot%20(41).png" alt = "MLBC">
+   
+# 7. Male and female winning percentage
+
+   SELECT ROUND(SUM(Female)/Sum(Total)*100) AS Femalepercentage, round(SUM(Male)/SUM(Total)*100) AS Malepercentage
+   FROM entriesgender1;
+   
    <img src = "" alt = "MLBC">
+
    
 
       
