@@ -108,6 +108,14 @@ This project was performed in MySQL Workbench with using the data. i have cleane
    GROUP BY 1
    ORDER BY 1 ASC;
    
-   <img src = "" alt = "MLBC">
+   <img src = "https://github.com/abhilashapanchal22/TOKYO-_OLYMPICS2020_SQL/blob/main/Screenshot%20(54).png" alt = "MLBC">
+   
+ # 12. Number of athletes participated per country
+ 
+   SELECT COUNT(Name) AS Athletes, NOC 
+   FROM athletes1
+   GROUP BY NOC
+   ORDER BY COUNT(Name) DESC;
 
+   <img src = "" alt = "MLBC">
       
