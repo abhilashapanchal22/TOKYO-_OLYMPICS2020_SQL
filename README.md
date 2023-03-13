@@ -30,4 +30,4 @@ This project was performed in MySQL Workbench with using the data. i have cleane
    SELECT SUM(Gold) AS TOTAL_GOLD, SUM(Silver) AS TOTAL_SILVER, SUM(Bronze) AS TOTAL_BRONZE
    FROM medals1;
 
-  <img src = "" alt = "MLBC">
+  <img src = "https://github.com/abhilashapanchal22/TOKYO-_OLYMPICS2020_SQL/blob/main/Screenshot%20(35).png" alt = "MLBC">
