@@ -84,7 +84,7 @@ This project was performed in MySQL Workbench with using the data. i have cleane
    JOIN teams1 t ON m.NOC = t.NOC
    ORDER BY 2 ASC;
      
-  <img src = "" alt = "MLBC">  
+  <img src = "https://github.com/abhilashapanchal22/TOKYO-_OLYMPICS2020_SQL/blob/main/Screenshot%20(49).png" alt = "MLBC">  
    
    
 # 10. Extracting USA information by joining tables
@@ -95,7 +95,8 @@ This project was performed in MySQL Workbench with using the data. i have cleane
    JOIN entriesgender1 e ON c.Discipline = e.Discipline
    JOIN medals1 m ON c.NOC = m.NOC
    JOIN teams1 t ON m.NOC = t.NOC
-   WHERE a.NOC = "United States of America";
+   WHERE a.NOC = "United States of America"
+   ORDER BY a.Discipline;
 
   <img src = "" alt = "MLBC">  
    
