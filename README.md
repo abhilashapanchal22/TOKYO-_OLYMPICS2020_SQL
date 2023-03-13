@@ -98,8 +98,16 @@ This project was performed in MySQL Workbench with using the data. i have cleane
    WHERE a.NOC = "United States of America"
    ORDER BY a.Discipline;
 
-  <img src = "" alt = "MLBC">  
+  <img src = "https://github.com/abhilashapanchal22/TOKYO-_OLYMPICS2020_SQL/blob/main/Screenshot%20(52).png" alt = "MLBC">  
+  
+# 11. Disciplines in which United States participated
+
+   SELECT DISTINCT(Discipline), NOC AS Country
+   FROM athletes1
+   WHERE NOC = "United States of America"
+   GROUP BY 1
+   ORDER BY 1 ASC;
    
-   
+   <img src = "" alt = "MLBC">
 
       
