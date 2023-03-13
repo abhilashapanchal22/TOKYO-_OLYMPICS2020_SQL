@@ -5,5 +5,14 @@ This project was performed in MySQL Workbench with using the data. i have cleane
 
 # Analysis of The Project
 
+# 1. Countries participation in total discipline and total medals won
+
+   SELECT a.NOC, COUNT(Discipline) AS Total_Discipline , m.Total AS Total_Medals
+   from athletes1 a
+   INNER JOIN 
+   medals1 m ON a.NOC = m.NOC
+   group by 3,1
+   order by COUNT(Discipline) DESC;
+
 <img src = "https://github.com/abhilashapanchal22/TOKYO-_OLYMPICS2020_SQL/blob/main/Screenshot%20(31).png" alt = "MLBC">
 
