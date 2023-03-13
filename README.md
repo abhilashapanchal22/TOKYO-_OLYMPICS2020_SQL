@@ -23,7 +23,7 @@ This project was performed in MySQL Workbench with using the data. i have cleane
    group by 1
    order by COUNT(Discipline) DESC;
    
-   <img src = "" alt = "MLBC">
+   <img src = "https://github.com/abhilashapanchal22/TOKYO-_OLYMPICS2020_SQL/blob/main/Screenshot%20(33).png" alt = "MLBC">
    
 # 3. Total Gold medals, Total Silver medals, Total Bronze medals won in olympics
    
