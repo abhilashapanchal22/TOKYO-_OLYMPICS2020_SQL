@@ -14,7 +14,7 @@ This project was performed in MySQL Workbench with using the data. i have cleane
    group by 3,1
    order by COUNT(Discipline) DESC;
 
-<img src = "https://github.com/abhilashapanchal22/TOKYO-_OLYMPICS2020_SQL/blob/main/Screenshot%20(31).png" alt = "MLBC">
+  <img src = "https://github.com/abhilashapanchal22/TOKYO-_OLYMPICS2020_SQL/blob/main/Screenshot%20(31).png" alt = "MLBC">
 
 # 2. Total decipline each country participated
 
@@ -23,4 +23,11 @@ This project was performed in MySQL Workbench with using the data. i have cleane
    group by 1
    order by COUNT(Discipline) DESC;
    
-   <img src = "" alt = "MLBC">
+   <img src = "https://github.com/abhilashapanchal22/TOKYO-_OLYMPICS2020_SQL" alt = "MLBC">
+   
+# 3. Total Gold Medals, Total Silver Medals, Total Bronze medals won in olympics
+   
+   SELECT SUM(Gold) AS TOTAL_GOLD, SUM(Silver) AS TOTAL_SILVER, SUM(Bronze) AS TOTAL_BRONZE
+   FROM medals1;
+
+  <img src = "" alt = "MLBC">
