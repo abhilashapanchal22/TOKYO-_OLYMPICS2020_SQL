@@ -71,7 +71,34 @@ This project was performed in MySQL Workbench with using the data. i have cleane
    ORDER BY Rankbytotal ASC
    LIMIT 10;
 
-   <img src = "https://github.com/abhilashapanchal22/TOKYO-_OLYMPICS2020_SQL/blob/main/Screenshot%20(44).png" alt = "MLBC">
+   <img src = "https://github.com/abhilashapanchal22/TOKYO-_OLYMPICS2020_SQL/blob/main/Screenshot%20(46).png" alt = "MLBC">
+   
+# 9. Joining all the tables together to do exploratory analysis
+
+   SELECT a.Name AS Athlete_Name, a.NOC AS Country, a.Discipline, c.Name AS Coach_Name, e.Female, e.Male, e.Total AS Total_Male_female, m.Gold, m.Silver, m.Bronze,
+   m.Total AS Total_Medals, m.Rankbytotal, t.Gender  
+   FROM athletes1 a
+   JOIN coaches1 c ON a.NOC = c.NOC
+   JOIN entriesgender1 e ON c.Discipline = e.Discipline
+   JOIN medals1 m ON c.NOC = m.NOC
+   JOIN teams1 t ON m.NOC = t.NOC
+   ORDER BY 2 ASC;
+     
+  <img src = "" alt = "MLBC">  
+   
+   
+# 10. Extracting USA information by joining tables
+ 
+   Select * 
+   from athletes1 a
+   JOIN coaches1 c ON a.NOC = c.NOC
+   JOIN entriesgender1 e ON c.Discipline = e.Discipline
+   JOIN medals1 m ON c.NOC = m.NOC
+   JOIN teams1 t ON m.NOC = t.NOC
+   WHERE a.NOC = "United States of America";
+
+  <img src = "" alt = "MLBC">  
+   
    
 
       
