@@ -48,6 +48,14 @@ This project was performed in MySQL Workbench with using the data. i have cleane
    GROUP BY country, Discipline
    ORDER BY country ASC;
    
+  <img src = "" alt = "MLBC">
+   
+# 6. Total medals won by Male and Female
+
+   SELECT SUM(Female) AS Total_Female, SUM(Male) AS Total_Male
+   FROM entriesgender1;
+   
    <img src = "" alt = "MLBC">
+   
 
       
