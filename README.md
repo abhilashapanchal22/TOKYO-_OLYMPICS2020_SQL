@@ -48,7 +48,7 @@ This project was performed in MySQL Workbench with using the data. i have cleane
    GROUP BY country, Discipline
    ORDER BY country ASC;
    
-  <img src = "" alt = "MLBC">
+  <img src = "https://github.com/abhilashapanchal22/TOKYO-_OLYMPICS2020_SQL/blob/main/Screenshot%20(39).png" alt = "MLBC">
    
 # 6. Total medals won by Male and Female
 
