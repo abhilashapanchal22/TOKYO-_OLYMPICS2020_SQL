@@ -31,3 +31,12 @@ This project was performed in MySQL Workbench with using the data. i have cleane
    FROM medals1;
 
   <img src = "https://github.com/abhilashapanchal22/TOKYO-_OLYMPICS2020_SQL/blob/main/Screenshot%20(35).png" alt = "MLBC">
+  
+# 4. Top 10 countries who won highest medals
+
+   SELECT NOC, Gold, Silver, Bronze, Total
+   FROM medals1
+   ORDER BY Total desc
+   LIMIT 10;
+   
+   <img src = "" alt = "MLBC">
